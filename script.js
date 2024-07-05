@@ -22,7 +22,7 @@ setInterval(function(){
     }
 })
 tl.to(".line h2", {
-    animationName:"anime",
+    animationName:"anima",
     opacity:1
 })
 tl.to("#loader" , {
