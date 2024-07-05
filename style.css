@@ -148,6 +148,9 @@ html,body{
     font-weight: 600;
     line-height: 7.2vw;
     text-transform: uppercase;
+    border-bottom: 0.5vw solid #fff;
+    padding-bottom: 0.5vw;
+    
 }
 .hero h2:hover{
     -webkit-text-stroke: 1px #fff;
@@ -155,6 +158,9 @@ html,body{
     color: transparent;
 }
 .hero:nth-child(2){
-    margin-top: 18vh;
+    margin-top: 16.8vh;
 }
 /* =======================================end of page1====================================================== */
+/* =======================================Start of page2====================================================== */
+
+/* =======================================end of page2====================================================== */
