@@ -134,14 +134,23 @@ html,body{
     overflow: hidden;
     display: flex;
     align-items: center;
-    position: relative;
-    z-index: 999;
+    
+}
+#hero1::before{
+    content: "01";
+    font-size: 3.2vw;
+    font-family: "silk serif";
+    font-weight: 500;
+    position: absolute;
+    top:33%;
+    left:17%;
 }
 .hero h1{
     font-size: 7.2vw;
     font-weight: 600;
     line-height: 7.2vw;
     text-transform: uppercase;
+    position: relative;
 }
 .hero h2{
     font-size: 7.2vw;
@@ -227,8 +236,18 @@ html,body{
     padding-top: 5vh;
 }
 #page4-content h1{
-    font-size: 6vw;
+    font-size: 7vw;
     text-transform: uppercase;
+    font-weight: 600;
+}
+#page4-content h1::before{
+    content: "03";
+    font-size: 3.2vw;
+    font-family: "silk serif";
+    font-weight: 500;
+    position: absolute;
+    top:2.5vw;
+    left:-10vw;
 }
 #page4-content .underline{
     height: 1px;
@@ -289,10 +308,12 @@ html,body{
     padding: 5vw 0;
     position: relative;
 }
+
 .elem{
     /* background-color: red; */
     white-space: nowrap;
     overflow-x: hidden;
+    margin-bottom: -3vw;
 }
 .elem h1{
     font-size: 7vw;
@@ -302,7 +323,7 @@ html,body{
     text-transform: uppercase;
     display: inline-block;
     animation-name: anime;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
@@ -318,6 +339,7 @@ html,body{
     /* background-color: red; */
     white-space: nowrap;
     overflow-x: hidden;
+    margin-bottom: -3vw;
 }
 .elem2 h1{
     font-size: 7vw;
@@ -328,7 +350,7 @@ html,body{
     display: inline-block;
     transform: translateX(calc(-100% - 20px));
     animation-name: anime;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: reverse;
@@ -343,3 +365,59 @@ html,body{
     color: transparent;
 }
 /* =======================================end of page5====================================================== */
+/* =======================================Start of footer====================================================== */
+#footer{
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    padding-left: 28vw;
+    padding-right: 5vw;
+}
+#footer-div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 4vw ;
+    padding-bottom: 4vw ;
+    padding-right:7vw ;
+}
+#footer h1{
+    font-size: 7vw;
+    text-transform: uppercase;
+    width: 60vw;
+    /* background-color: blue; */
+    margin-bottom: 7vw;
+    position:relative;
+}
+#footer h1::before{
+    content: "04";
+    font-size: 3.2vw;
+    font-family: "silk serif";
+    font-weight: 500;
+    position: absolute;
+    top:-0.5vw;
+    left:-10vw;
+}
+.underline{
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+    
+    
+}
+
+.box h6{
+    font-size: 0.9vw;
+    margin-bottom: 1.7vw;
+}
+.box h5{
+    font-size: 1.7vw;
+    
+}
+#footer>h6{
+    font-size: 1vw;
+    font-weight: 600;
+    margin: 2.5vw 0;
+}
+/* =======================================end of footer====================================================== */
