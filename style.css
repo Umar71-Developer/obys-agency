@@ -129,7 +129,7 @@ html,body{
 .hero{
     /* background-color: red; */
     width: 70%;
-    margin-left: 27%;
+    margin-left: 30%;
     height: fit-content;
     overflow: hidden;
     display: flex;
@@ -396,7 +396,7 @@ html,body{
     font-family: "silk serif";
     font-weight: 500;
     position: absolute;
-    top:-0.5vw;
+    top:0vw;
     left:-10vw;
 }
 .underline{
