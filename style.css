@@ -247,8 +247,8 @@ html,body{
     padding: 1vw;
     position: relative;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: flex-end;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 .image-div{
@@ -264,6 +264,13 @@ html,body{
     width: 100%;
     object-fit: cover;
     object-position: center;
+}
+.page3-circle{
+    height: 20vw;
+    width: 20vw;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    
 }
 /* =======================================end of page3====================================================== */
 /* =======================================Start of page4====================================================== */
