@@ -181,6 +181,7 @@ html,body{
     height: 65vh;
     width: 68.9vw;
     position: relative;
+    
     left: 30%;
     background-image: url(https://obys.agency/wp-content/uploads/2022/11/Showreel-2022-preview-1.jpg&quot);
 }
@@ -189,7 +190,7 @@ html,body{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    top:0
+    top:30%
 }
 #video-container video{
     height: 100%;
@@ -219,7 +220,50 @@ html,body{
     min-height: 100vh;
     position: relative;
     width: 100%;
-    background-color: #2e2b2b;
+    /* background-color: #2e2b2b; */
+    padding: 7vh 0;
+    margin-bottom: 20vh;
+}
+#page3 h1{
+    font-size: 7vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 28vw;
+}
+#page3 h1::before{
+    content: "02";
+    font-size: 3.2vw;
+    font-family: "silk serif";
+    font-weight: 500;
+    position: absolute;
+    top:8vh;
+    left:18vw;
+}
+#page3 .underline{
+    margin-left: 28vw;
+}
+#image-div-container{
+    background-color: red;
+    padding: 1vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.image-div{
+    height: 33vw;
+    width: 24vw;
+    position: relative;
+    overflow: hidden;
+    background-color: blue;
+    flex-shrink: 0;
+}
+.image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 /* =======================================end of page3====================================================== */
 /* =======================================Start of page4====================================================== */
@@ -421,3 +465,7 @@ html,body{
     margin: 2.5vw 0;
 }
 /* =======================================end of footer====================================================== */
+._canvas_container{
+    z-index: 99999999 !important;
+    pointer-events: none;
+}
